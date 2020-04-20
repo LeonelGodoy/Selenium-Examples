@@ -8,7 +8,9 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
 # Using Chrome to access web
 from selenium.webdriver.chrome.options import Options
-
+'''
+Checks the Amazon website for job posting in the Macon Area. If a posting is found it will open a webpage.
+'''
 while True:
     time.sleep(60)
     # Loads setings to not have to enter my password
